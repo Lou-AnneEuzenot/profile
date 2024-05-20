@@ -31,14 +31,18 @@ a:hover {
   text-decoration: none;
 }
 
+.container {
+  width: 800px;
+  margin: 20px auto;
+}
+
 .card {
   background: white;
   border: 20px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px grey;
-  width: 900px;
-  margin: 40px 300px;
-  padding: 20px;
+  margin: 40px 20px;
+  padding: 50px;
 }
 
 .btn-blue {
@@ -65,21 +69,21 @@ img {
 
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
-  .card {
+  .container {
     width: 900px;
   }
 }
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
-  .card {
+  .container {
     width: 700px;
   }
 }
 
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
-  .card {
+  .container {
     width: 500px;
   }
 }
